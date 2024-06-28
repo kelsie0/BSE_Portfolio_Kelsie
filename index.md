@@ -1,10 +1,6 @@
 # Three Joint Robotic Arm
-The Three Joint Robotic Arm is made up of four servo motors. One rotates the base, two help bend back and forth, and the last servo opens and closes the claw at the end of the arm. After building the robotic arm, I added a camera to the end of it. Throughout this project, I learned and applied Arcuino code and Python. Despite encountering some bugs along the way, I was able to power through and apply the new techinques I learned to my completed project. 
+The Three Joint Robotic Arm is made up of four servo motors. One rotates the base, two help bend back and forth, and the last servo opens and closes the claw at the end of the arm. After building the robotic arm, I added a camera to the end of it. Throughout this project, I learned and applied Arduino code and Python. Despite encountering some bugs along the way, I was able to power through and apply the new techinques I learned to my completed project. 
 
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -18,7 +14,7 @@ The Three Joint Robotic Arm is made up of four servo motors. One rotates the bas
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=ZzZ9SbKGYis&list=PLe-u_DjFx7eticgHvdNBMS-CTTohSGwUM&index=36" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZzZ9SbKGYis?si=5oiOW9qxkX-EhnvL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
@@ -32,7 +28,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=hrOJ-Q86aEw&list=PLe-u_DjFx7eticgHvdNBMS-CTTohSGwUM&index=21" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hrOJ-Q86aEw?si=Nu_yJ5Ivngd5rjA3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
@@ -42,7 +38,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # First Milestone
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=0juHIlqvF68&list=PLe-u_DjFx7eticgHvdNBMS-CTTohSGwUM&index=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0juHIlqvF68?si=pf6Dn08xyAzpEGbK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
   My first milestone was to put together the 3 joint robotic arm. I had to asseble the hardware and then add the code for the arm. The project includes servo motors, Arduino NANO, a NANO sheild, hardware components of the arm and 9V batteries as a power source. The servos will act as the joints on the arm; it will allow bending and rotation of the robotic arm and opening and closing of the claw end of the arm.
   By this point I had built the arm and added the original final code. In this milestone I also troubleshooted and worked out the problems that arose. Some of the challenges included a misalignment of the servos along the arm due to an assembly error, which I fixed by realigning the servos, and a file grouping error that prevented the joysticks from controlling the arm.
