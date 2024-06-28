@@ -1,7 +1,6 @@
 # Three Joint Robotic Arm
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+The Three Joint Robotic Arm is made up of four servo motors. One rotates the base, two help bend back and forth, and the last servo opens and closes the claw at the end of the arm. After building the robotic arm, I added a camera to the end of it. Throughout this project, I learned and applied Arcuino code and Python. Despite encountering some bugs along the way, I was able to power through and apply the new techinques I learned to my completed project. 
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
 <!--- This is an HTML comment in Markdown -->
 <!--- Anything between these symbols will not render on the published site -->
