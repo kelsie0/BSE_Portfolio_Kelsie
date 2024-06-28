@@ -31,7 +31,6 @@ For your final milestone, explain the outcome of your project. Key details to in
   My second milestone was to set up and make sure that my Raspberry Pi and Picamera worked. I had to set up the Pi using VNC Viewer and then connect the camera. I then used a code to take a picture on the Picamera. Once the picture was taken successfuly, I switched the power from the 9v battery connected to the arduino Arduino to a cable directly connected to the Raspberry pi. 
   During this step, my wires became loose so the arm would suddenly reset every so often. This had a simple fix of using a more secure wiring network on a breadboard. After that change, the arm moved smoothly again.
   My next steps will be to get a successful message transfer between the Arduino and the Pi in order to take a picture after moving the Joystick. I will also have to physically attach the Picamera to the Robotic Arm. 
-  For my next milestone, I will be adding on to this current arm. I plan to attach a camera to the end of the arm using Raspberry Pi and then link the Pi and Aruino with Bluetooth.
 
 # First Milestone
 
