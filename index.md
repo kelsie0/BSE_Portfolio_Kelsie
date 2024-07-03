@@ -202,7 +202,47 @@ void loop() {
   }
 }
 ```
-Then in the Raspberry Pi, using python, I used a code to recieve the 'trigger' message and then take a picture.
+Then in the Raspberry Pi, using python in Thonny, I used a code to recieve the 'trigger' message and then take a picture:
+
+```
+#!/usr/bin/env python3
+import serial
+from picamera2 import Picamera2, Preview
+import time
+import cv2
+from datetime import datetime
+import os 
+
+folder = "armimages"
+
+if not os.path.exists(folder):
+    os.mkdir(folder)
+    
+def save_file (data, base_filename = "output"):
+
+    timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+    filename = f"{base_filename}-{timestamp}.png"
+    filepath = os.path.join(folder, filename)
+    return filepath
+if __name__ == '__main__':
+    ser = serial.Serial('/dev/ttyUSB0', 9600, timeout=1)
+    ser.reset_input_buffer()
+    picam2 = Picamera2()
+    camera_config = picam2.create_still_configuration(main={"size": (1920, 1088)}, lores={"size": (640, 480)}, display="lores")
+    #camera_config = picam2.create_still_configuration({'format': 'RGB888'}, main={"size": (1920, 1080)}, lores={"size": (640, 480)}, display="lores")
+    picam2.configure(camera_config)
+    while True:
+        if ser.in_waiting > 0:
+            line = ser.readline().decode('utf-8').rstrip()
+            print(line)
+            if line == "trigger":
+                #picam2.start_preview(Preview.QTGL) #Comment this out if not using desktop interface
+                picam2.start()
+                time.sleep(2)
+                im = picam2.capture_array()
+                filepath=save_file(im)
+                cv2.imwrite(filepath, im)
+```
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
