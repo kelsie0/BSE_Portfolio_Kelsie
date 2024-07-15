@@ -6,7 +6,6 @@ The Three Joint Robotic Arm is made up of four servo motors. One rotates the bas
 |:--:|:--:|:--:|:--:|
 | Kelsie S | Dublin High School | Biomechanical Engineering | Incoming Junior
 
-**Ill replace it evetually... Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](docs/assets/IMG_7172BD3AAAD4-1.jpeg)
   
@@ -43,7 +42,7 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 
 # Code
 
-For the original arm, I followed steps on github [here]([url](https://github.com/Cokoino/CKK0006)) for Arduino to get the arm to run.
+For the original arm, I followed steps on github [here]((https://github.com/Cokoino/CKK0006)) for Arduino to get the arm to run.
  
 I then modified the code to produce a 'trigger' message on Arduino:
 
