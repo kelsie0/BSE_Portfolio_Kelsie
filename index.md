@@ -8,7 +8,7 @@ The Three Joint Robotic Arm is made up of four servo motors. One rotates the bas
 
 **Ill replace it evetually... Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Headstone Image](logo.svg)
+![Headstone Image](docs/assets/IMG_7172BD3AAAD4-1.jpeg)
   
 # Final Milestone
 
@@ -202,7 +202,7 @@ void loop() {
   }
 }
 ```
-Then in the Raspberry Pi, using python in Thonny, I used a code to recieve the 'trigger' message and then take a picture:
+Then in Raspberry Pi, using python through Thonny, I used a code to recieve the 'trigger' message and then take a picture:
 
 ```
 #!/usr/bin/env python3
@@ -245,8 +245,6 @@ if __name__ == '__main__':
 ```
 
 # Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
 | **Part** | **Purpose** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
